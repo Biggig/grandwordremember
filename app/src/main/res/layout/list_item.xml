@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/word"
+            android:textSize="30sp"
+            android:text="单词"
+            />
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/level"
+            android:textSize="30sp"
+            android:text="级别"
+            />
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/test_num"
+            android:textSize="30sp"
+            android:text="测试"
+            />
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/correct_num"
+            android:textSize="30sp"
+            android:text="正确"
+            />
+    </TableRow>
+</TableLayout>
